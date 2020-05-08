@@ -1,0 +1,338 @@
+@font-face {
+    font-family: 'Alegreya';
+    src: url(Alegreya-Regular.ttf);
+}
+
+.header {
+    background-color: #316DC3;
+}
+
+.div {
+    text-align: right;
+}
+
+.div1>p {
+    text-align: center;
+    padding-top: 12px;
+    font-size: 15px;
+}
+
+.ico {
+    font-size: 12px;
+    color: rgb(247, 248, 250);
+    margin: 16px 12px 16px 12px;
+}
+
+.whatsapp {
+    background-color: rgb(101, 188, 84);
+    color: rgb(247, 248, 250);
+    font-size: 18px;
+    margin: 0px 30px 0px 12px;
+    padding: 1px 3px 2px 3px;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.btn1 {
+    background-color: rgb(247, 248, 250);
+    color: rgb(66, 121, 0);
+    border: 1px solid rgb(66, 121, 0);
+    border-radius: 0px;
+    font-size: 11px;
+    margin-top: 12px;
+    padding: 5px 10px;
+}
+
+.active>a.nav-link {
+    color: white !important;
+    background-color: #316DC3;
+    border-radius: 20px;
+    padding: 7px 0px;
+    border-left: 9px solid #316DC3;
+    border-right: 9px solid #316DC3;
+    font-size: 14px;
+}
+
+.nav-link {
+    color: rgb(58, 56, 56) !important;
+    font-size: 14px;
+    padding: 7px 0px;
+    border-left: 9px solid rgb(248, 249, 250);
+    border-right: 9px solid rgb(248, 249, 250);
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: #316DC3;
+    padding: 7px 0px;
+    border-left: 9px solid #316DC3;
+    border-right: 9px solid #316DC3;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 11px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f078";
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    vertical-align: 0;
+    min-width: 16px;
+}
+
+/* .navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+  }
+   
+  .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+   
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+  } */
+
+.marquee {
+    background-color: #316DC3;
+    color: rgb(247, 248, 250);
+    margin: 10px auto 10px auto;
+}
+
+.green {
+    color: rgb(0, 254, 1);
+}
+
+.more {
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
+
+.more:hover {
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
+
+.intro {
+    background-color: rgb(247, 248, 250);
+    padding: 50px;
+}
+
+.heading {
+    font-family: Roboto;
+    text-align: center;
+}
+
+.hr1 {
+    width: 35px;
+    background-color: rgb(66, 121, 0);
+    border: 1px solid rgb(66, 121, 0);
+}
+
+.detail {
+    padding: 10px 90px 30px 90px;
+}
+
+.detail>p {
+    color: gray;
+    font-size: 15.1px;
+    line-height: 27px;
+    margin-bottom: 18px;
+}
+
+.food {
+    width: 45px;
+}
+
+.num {
+    font-family: 'Alegreya';
+    line-height: 60px;
+}
+
+.dast {
+    font-family: 'Alegreya';
+    font-weight: 600;
+}
+
+.month {
+    color: rgb(0, 254, 1);
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.box {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.shadows {
+    background-color: white;
+    padding: 30px 0px 20px 0px;
+    box-shadow: 0px 0px 30px rgba(185, 185, 185, 0.76);
+}
+
+.activities {
+    font-family: 'Alegreya';
+    color: #316DC3;
+    font-size: 21px;
+    line-height: 70px;
+}
+
+.projects {
+    font-family: 'Alegreya';
+    color: #316DC3;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.mispro {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(247, 248, 250);
+    /* border: 1px solid gainsboro; */
+    box-shadow: 0px 0px 2px gainsboro inset;
+}
+
+.hr2 {
+    display: inline-block;
+    width: 50px;
+    background-color: rgb(66, 121, 0);
+    border: 1px solid rgb(66, 121, 0);
+    margin: 0px;
+}
+
+.hr3 {
+    position: relative;
+    top: -23px;
+}
+
+.mission {
+    display: inline;
+    font-family: 'Alegreya';
+    color: #316DC3;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.upcoming {
+    height: 340px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.marq {
+    padding-right: 60px;
+    color: gray;
+    font-size: 15px;
+}
+
+.image-gallery {
+    padding: 50px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.con {
+    padding: 1px;
+    margin: 30px 0px 100px 0px;
+}
+
+.con:hover .image {
+    opacity: 0.3;
+    border: 5px solid gainsboro;
+}
+
+.con:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    display: inline-block;
+    background-color: #316DC3;
+    padding: 4px 8px;
+    border-radius: 100%;
+}
+
+.text>a {
+    color: white;
+    text-decoration: none;
+}
+
+.green2 {
+    color: rgb(66, 121, 0);
+}
+
+.footer {
+    padding: 60px 0px;
+    background-color: rgb(37, 39, 46);
+}
+
+.col1 {
+    color: rgb(194, 187, 187);
+    font-size: 15px;
+    padding: 20px 0px;
+    line-height: 13px;
+}
+
+.txt {
+    font-family: 'Alegreya';
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+
+.hr4 {
+    background-color: gray;
+}
+
+.hr5 {
+    width: 50px;
+    background-color: rgb(66, 121, 0);
+    border: 1px solid rgb(66, 121, 0);
+    margin: 0px;
+    position: relative;
+    top: -18px;
+}
+
+.ico1 {
+    font-size: 12px;
+    color: white;
+    background-color: #316DC3;
+    border: 10px solid #316DC3;
+    border-radius: 100%;
+}
+
+.ico2 {
+    border-left: 13px solid #316DC3;
+    border-right: 12px solid #316DC3;
+}
+
+.copy {
+    padding: 8px 0px 8px 0px;
+    background-color: #316DC3;
+    font-size: 11px;
+    font-weight: 500;
+}
